@@ -1,5 +1,7 @@
 # Ficha digital com assinatura na tela e PDF automático
 
+**Demo no ar:** <https://demo-ficha-assinatura.vercel.app> · painel em [/painel](https://demo-ficha-assinatura.vercel.app/painel) (o login de demonstração aparece na tela)
+
 > ⚠️ **Projeto de demonstração.** O estúdio "Tinta Viva Tattoo", as pessoas, os CPFs e as assinaturas são **fictícios**.
 > Todas as páginas mostram uma faixa avisando disso, os PDFs saem com a marca "DEMONSTRAÇÃO" e as páginas não são indexadas pelo Google.
 > Não digite dados reais na demo.
@@ -138,6 +140,7 @@ O formulário, a validação e o PDF se ajustam sozinhos. Cada documento ganha u
 3. Opcional: `npm run seed` com as variáveis do Supabase cria as fichas de exemplo lá.
 
 > Na Vercel o disco não é permanente, então em produção o Supabase é obrigatório.
+> O `vercel.json` coloca as funções em São Paulo (`gru1`), perto do banco do Supabase (`sa-east-1`).
 
 ## Limites conhecidos
 
